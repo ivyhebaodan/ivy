@@ -1,0 +1,227 @@
+@font-face {
+	font-family: 'Nexa';
+	src: url(../fonts/Nexa_Book-webfont.woff2);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url(../fonts/Nexa_Heavy-webfont.woff2);
+	font-weight: 800;
+}
+
+footer{
+	background-color: #333;
+	color: #ccc;
+	padding: 90px;
+	position:static;
+	width:100%;
+	margin-top:400px;
+	margin-bottom:0px;
+}
+
+body {
+	font-family: 'Nexa', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin:0;
+}
+
+
+.bg-img {
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+
+
+nav {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	color:black;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 1.2rem;
+	margin-right: 10px;
+	color:black;
+	font-weight:400px;
+}
+
+nav .hungry {
+	display: inline-block;
+	vertical-align: middle;
+	color:rgba(255,0,0,0.6);;
+}
+
+nav ul {
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+	text-align: right;
+}
+
+nav ul li {
+	transition: color .5s ease;
+}
+
+nav ul li:hover {
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+	color:gray;
+}
+.row1 {
+	background-color:white;
+
+
+	/*Michael*/
+	/*设置白色背景的最小高度*/
+	margin-top: 6rem;
+	width: 100%;
+	min-height: 15rem;
+	padding:50px;
+	/*关键： 在row定义一个relative 以便ui-1的图片能浮起来*/
+	position: relative;
+}
+
+
+/*michael*/
+/*这可以实现把上下带p tag的行距进行调整*/
+.row1 p{
+	line-height: 13px;
+}
+
+
+.row1 :after {
+	content:'';
+	clear: both;
+	width:100%;
+	display:block;
+}
+
+
+.row2 {
+	background-color:white;
+
+
+	/*Michael*/
+	/*设置白色背景的最小高度*/
+	margin-top: 8rem;
+	width: 100%;
+	min-height: 18rem;
+	padding:50px;
+	/*关键： 在row定义一个relative 以便ui-1的图片能浮起来*/
+	position: relative;
+}
+
+/*michael*/
+/*这可以实现把上下带p tag的行距进行调整*/
+.row2 p{
+	line-height: 13px;
+}
+
+
+.row2 :after {
+	content:'';
+	clear: both;
+	width:100%;
+	display:block;
+}
+
+
+.left {
+	float:left;
+	width:50%;
+
+	/*michael*/
+	/*能让带有left class 的div 里面的所有内容都居中*/
+	text-align: center;
+}
+.right{
+	float:right;
+	width:50%;
+	text-align:center;
+}
+
+.right1{
+	float:right;
+	width:70%;
+	text-align:center;
+}
+
+.ui-1 {
+	/*width:50%;*/
+	/*z-index:1000;*/
+
+	/*Michel*/
+	/*设置手机的大小*/
+	width: 16rem;
+	height:30rem;
+
+	/*这里用到row里面的position：relatives属性。让这个图片的位置的移动是相对于row div的*/
+	position: absolute;
+	top: -5rem;
+	left:45rem;
+}
+
+.icon-2 {
+	width:50%
+	height:50%;
+}
+
+
+.ui-2 {
+	width:16rem;
+	height:30rem;
+	position:absolute;
+	top:-2rem;
+	left:14rem;
+}
+
+h2 {
+	color:rgba(255,0,0,0.6);
+	font-weight:200;
+	font-size:30px;
+	padding:-5px;
+}
+
+p {
+	color:gray;
+	font-weight:200;
+	font-size:13px;
+}
+
+.button {
+	margin-top:150px;
+	margin-bottom:100px;
+	
+
+}
+
+
+.info p {
+	margin-top:-30px;
+	color:white;
+	width:30%;
+	line-height: 40px;
+	text-align:left;
+}
+
+.image{
+	height:10%;
+	width:10%;
+	margin-right:20px;
+}
+.social {
+	margin-top:-10px;
+	display:inline-block;
+	width:100%;
+}
